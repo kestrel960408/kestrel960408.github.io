@@ -1,10 +1,10 @@
 /* eslint-disable react/no-danger */
+
 import React from 'react';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import dateformat from 'dateformat';
-import ReactDisqusComments from 'react-disqus-comments';
 import styled from '@emotion/styled';
 import site from '../shapes/site';
 import Layout from '../components/layout';
@@ -13,7 +13,7 @@ import PostNav from '../components/post-nav';
 import CodeStyle from '../emotion/code';
 import pageContextShape from '../shapes/page-context';
 import postShape from '../shapes/post';
-import Utterances from '../components/Utterances';
+import Utterences from '../components/utterances';
 
 const Main = styled.main(({ theme }) => ({
   color: theme.textColor,
@@ -118,14 +118,14 @@ const BlogPost = ({ data, pageContext }) => {
             <TagsList tags={post.frontmatter.tags} />
           </Header>
           <PostWrap dangerouslySetInnerHTML={{ __html: post.html }} />
-          <Footer>
-            <Utterances repo="kestrel960408/kestrel960408.github.io" />
-          </Footer>
         </article>
         <PostNavWrap>
           <PostNav prev post={prev} />
           <PostNav next post={next} />
         </PostNavWrap>
+        <Footer>
+            <Utterences repo="kestrel960408/blog-comments" />
+          </Footer>
       </Main>
     </Layout>
   );

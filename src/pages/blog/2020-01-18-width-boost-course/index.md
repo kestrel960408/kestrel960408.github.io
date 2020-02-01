@@ -127,4 +127,4 @@ HTTPS, 웹에서 데이터를 주고 받는 과정에서 제 3자가 데이터 �
  - boostCourse-2 : [[부스트코스] 웹 프로그래밍](https://www.edwith.org/boostcourse-web/lecture/16661)
 
 
-![nametech](./edwith-nametech.jpg)
+![nametech](https://kestrel960408.github.io/src/images/edwith-nametech.jpg)
