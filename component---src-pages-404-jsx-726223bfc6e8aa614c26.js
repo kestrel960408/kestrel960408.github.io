@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{pssB:function(n,c,t){"use strict";t.r(c);var e=t("qKvR"),l=(t("q1tI"),t("TJpk")),o=t.n(l),u=t("L12J"),a=t("Gc8r");c.default=function(){return Object(e.c)(u.a,null,Object(e.c)(a.a,null,Object(e.c)(o.a,null,Object(e.c)("title",null,"404 · Ken Powers")),Object(e.c)("h2",null,"404"),Object(e.c)("p",null,"Whoops! I can’t find what you’re looking for.")))}}}]);
+//# sourceMappingURL=component---src-pages-404-jsx-726223bfc6e8aa614c26.js.map

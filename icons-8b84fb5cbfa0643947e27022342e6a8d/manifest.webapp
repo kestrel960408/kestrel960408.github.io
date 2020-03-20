@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "knpw.rs",
+  "description": null,
+  "icons": {
+    "60": "/icons-8b84fb5cbfa0643947e27022342e6a8d/firefox_app_60x60.png",
+    "128": "/icons-8b84fb5cbfa0643947e27022342e6a8d/firefox_app_128x128.png",
+    "512": "/icons-8b84fb5cbfa0643947e27022342e6a8d/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": null,
+    "url": null
+  }
+}
